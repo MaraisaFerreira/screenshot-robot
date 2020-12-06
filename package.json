@@ -1,0 +1,14 @@
+{
+	"name": "screenshot-robot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "robot-access.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"puppeteer": "^2.1.1"
+	}
+}
