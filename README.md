@@ -5,7 +5,9 @@
 
 <br>
 
-![](./imgs/screen.jpg)
+<p align="center">
+     <img src="./imgs/screen.jpg" alt="Screenshot">
+</p>
 
 ### Pré Requisitos
 
