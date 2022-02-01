@@ -4,7 +4,6 @@ const robotScreenshots = async () => {
 	const browser = await puppeteer.launch({ headless: true });
 	const page = await browser.newPage();
 
-	/* lista dos sites */
 	const arraySites = [
 		'https://www.google.com/',
 		'https://play.google.com/',
