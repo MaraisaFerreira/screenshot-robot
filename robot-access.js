@@ -14,9 +14,9 @@ const robotScreenshots = async () => {
 	];
 
 	for (let i = 0; i < arraySites.length; i++) {
-		await page.goto(arraySites[i]); //abre a pag
+		await page.goto(arraySites[i]);
 
-		await page.screenshot({ path: `./screenshots/screenshot${i + 1}.png` }); //tira o print
+		await page.screenshot({ path: `./screenshots/screenshot${i + 1}.png` });
 	}
 
 	await browser.close(); //fecha o browser
